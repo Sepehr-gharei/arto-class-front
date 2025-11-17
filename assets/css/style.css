@@ -842,6 +842,232 @@ footer .left-side .namads-wrapper .item img {
   width: 100%;
   height: 100%;
 }
+
+
+.secondery-header {
+  height: auto;
+  padding: 0;
+}
+
+.product-single-section {
+  min-height: 700px;
+  background-image: url(../img/pc/name\ \(101\).jpg);
+  position: relative;
+  padding-top: 200px;
+}
+.product-single-section .product-single-container {
+  display: flex;
+}
+.product-single-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top right,
+    var(--background-color) 30%,
+    rgba(15, 20, 26, 0) 100%
+  );
+  z-index: 0;
+}
+.product-single-section .overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    var(--background-color) 3%,
+    rgba(15, 20, 26, 0) 100%
+  );
+  z-index: 0;
+}
+.product-single-section svg {
+  width: 20px;
+  height: 20px;
+}
+.product-single-section .product-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.product-single-section .product-text-wrapper .title {
+  margin-top: auto;
+  font-size: 32px;
+  color: var(--primary-normal-orange-color);
+}
+.product-single-section .product-text-wrapper .large-text {
+  margin: 5px 0;
+  font-size: 20px;
+}
+.product-single-section .product-text-wrapper {
+  text-align: justify;
+}
+.product-single-section .purchase-wrapper {
+  width: 40%;
+}
+.product-single-section .purchase-wrapper .wrapper {
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 30px;
+  background: var(--secondery-background-color);
+}
+.product-single-section .purchase-wrapper .wrapper .discount {
+  border-radius: 5px;
+  padding: 6px;
+  justify-content: center;
+  background: var(--text-medium-color);
+  display: flex;
+}
+.product-single-section .purchase-wrapper .wrapper .discount strong {
+  color: var(--background-color);
+}
+.product-single-section .purchase-wrapper .wrapper .discount p {
+  color: var(--background-color);
+}
+.product-single-section .purchase-wrapper .wrapper .add-to-card {
+  height: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-single-section .purchase-wrapper .wrapper .add-to-card .basket {
+  background: var(--primary-normal-orange-color);
+  width: 87%;
+  border-radius: 5px;
+  color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-single-section .purchase-wrapper .video-wrapper {
+  height: 200px;
+}
+.product-single-section .purchase-wrapper .wrapper .add-to-card .favorites {
+  width: 40px;
+  border: 1px solid var(--primary-normal-orange-color);
+
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-single-section .purchase-wrapper .video-wrapper video {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.product-single-section .purchase-wrapper .price-wrapper {
+  margin-top: 15px;
+}
+.product-single-section .purchase-wrapper .price-wrapper .main-price-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.product-single-section
+  .purchase-wrapper
+  .price-wrapper
+  .discount-price
+  .surprise
+  p {
+  border-radius: 5px;
+  padding: 4px 9px;
+  margin-right: 10px;
+  color: var(--background-color);
+  background: var(--secondery-normal-orange-color);
+}
+.product-single-section
+  .purchase-wrapper
+  .price-wrapper
+  .discount-price {
+display: flex;
+align-items: center;
+  }
+.product-single-section .purchase-wrapper .price-wrapper .star-and-price {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.product-single-section .purchase-wrapper .price-wrapper .star-and-price .main-price{
+  display: flex;
+}
+.features-and-category-section svg {
+  width: 20px;
+  height: 20px;
+}
+.features-and-category-section .features-wrapper {
+  display: flex;
+}
+.features-and-category-section .features-wrapper .item {
+  margin-left: 50px;
+  display: flex;
+}
+.features-and-category-section .categories-wrapper {
+  border-top: 1px solid;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.features-and-category-section .categories-wrapper a {
+  color: var(--primary-normal-orange-color);
+}
+.about-teacher-section {
+  margin: 85px 0;
+}
+.about-teacher-section .title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.about-teacher-section .title .icon {
+  width: 600px;
+}
+.about-teacher-section .title .text {
+  position: absolute;
+  font-size: 42px;
+}
+.about-teacher-section .main-content {
+  border-radius: 10px;
+  padding: 30px;
+  background: var(--secondery-background-color);
+  display: flex;
+}
+.about-teacher-section .main-content .image-section {
+  height: 180px;
+  width: 180px;
+}
+.about-teacher-section .main-content .image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.about-teacher-section .main-content .text-field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.about-teacher-section .main-content .text-field .about {
+  margin: 5px 0;
+}
+.about-teacher-section .main-content .text-field .about p {
+  color: var(--primary-normal-orange-color);
+}
+.about-teacher-section .main-content .text-field .more-text {
+  margin-top: auto;
+}
+
+
 @media (max-width: 1180px) {
   .special-section .special-container .text-wrapper {
     padding: 64px;
@@ -853,7 +1079,75 @@ footer .left-side .namads-wrapper .item img {
 }
 
 @media (max-width: 990px) {
-  .two-banner-section .container .item {
+  /* اسکرول بخش ویژگی‌ها */
+  .features-and-category-container .features-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding-bottom: 10px; /* برای اینکه اسکرولر راحت دیده شود */
+  }
+
+  .features-and-category-container .features-wrapper .item {
+    flex: 0 0 max-content;
+    margin-left: 20px;
+  }
+
+  /* اسکرول بخش دسته‌بندی‌ها */
+  .features-and-category-section .categories-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+  }
+
+  .features-and-category-section .categories-wrapper .item {
+    flex: 0 0 max-content;
+    margin-left: 20px;
+  }
+  .features-and-category-container .features-wrapper::-webkit-scrollbar,
+.features-and-category-section .categories-wrapper::-webkit-scrollbar {
+  height: 6px; /* ارتفاع اسکرول افقی */
+}
+
+.features-and-category-container .features-wrapper::-webkit-scrollbar-track,
+.features-and-category-section .categories-wrapper::-webkit-scrollbar-track {
+  background: #0f141b; /* رنگ پس زمینه اسکرولر (دلخواه) */
+}
+
+.features-and-category-container .features-wrapper::-webkit-scrollbar-thumb,
+.features-and-category-section .categories-wrapper::-webkit-scrollbar-thumb {
+  background: #1a2430; /* رنگ خود اسکرولر */
+  border-radius: 10px;
+}
+
+.features-and-category-container .features-wrapper::-webkit-scrollbar-thumb:hover,
+.features-and-category-section .categories-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #253244; /* رنگ هنگام هاور (دلخواه) */
+}
+.features-and-category-section .categories-wrapper {
+  border-top: 0;
+  border-bottom: 0;
+}
+.header .header-top .header-top-container {
+  padding: 20px 5px;
+}
+  .product-single-section .product-single-container {
+    flex-direction: column;
+  }
+  .product-single-section .purchase-wrapper {
+    margin: 30px 0;
+  }
+  .product-single-section .purchase-wrapper .video-wrapper {
+    height: 350px;
+  }
+  .product-single-section .purchase-wrapper .wrapper {
+    margin-right: 0;
+  }
+  .two-banner-section .container .item ,.product-single-section .product-text-wrapper ,.product-single-section .purchase-wrapper{
     width: 100%;
   }
   .slider-section .text-content {
@@ -998,186 +1292,4 @@ footer .left-side .namads-wrapper .item img {
   }
 }
 @media (max-width: 500px) {
-}
-
-.secondery-header {
-  height: auto;
-  padding: 0;
-}
-
-.product-single-section {
-  min-height: 700px;
-  background-image: url("../img/pc/name\\(10\).jpg");
-  position: relative;
-  padding-top: 200px;
-}
-.product-single-section .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to top right,
-    var(--background-color) 30%,
-    rgba(15, 20, 26, 0) 100%
-  );
-  z-index: 0;
-}
-.product-single-section .overlay-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to top,
-    var(--background-color) 3%,
-    rgba(15, 20, 26, 0) 100%
-  );
-  z-index: 0;
-}
-.product-single-section svg {
-  width: 20px;
-  height: 20px;
-}
-.product-single-section .product-text-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-.product-single-section .product-text-wrapper .title {
-  margin-top: auto;
-  font-size: 32px;
-  color: var(--primary-normal-orange-color);
-}
-.product-single-section .product-text-wrapper .large-text {
-  margin: 5px 0;
-  font-size: 20px;
-}
-.product-single-section .product-text-wrapper {
-  text-align: justify;
-}
-.product-single-section .purchase-wrapper .wrapper {
-  padding: 20px;
-  border-radius: 20px;
-  margin-right: 30px;
-  background: var(--secondery-background-color);
-}
-.product-single-section .purchase-wrapper .wrapper .discount {
-  border-radius: 5px;
-  padding: 6px;
-  justify-content: center;
-  background: var(--text-medium-color);
-}
-.product-single-section .purchase-wrapper .wrapper .discount strong {
-  color: var(--background-color);
-}
-.product-single-section .purchase-wrapper .wrapper .discount p {
-  color: var(--background-color);
-}
-.product-single-section .purchase-wrapper .wrapper .add-to-card {
-  height: 40px;
-  margin-top: 10px;
-}
-.product-single-section .purchase-wrapper .wrapper .add-to-card .basket {
-  background: var(--primary-normal-orange-color);
-  width: 87%;
-  border-radius: 5px;
-  color: var(--background-color);
-}
-.product-single-section .purchase-wrapper .video-wrapper {
-  height: 200px;
-}
-.product-single-section .purchase-wrapper .wrapper .add-to-card .favorites {
-  width: 40px;
-  border: 1px solid var(--primary-normal-orange-color);
-
-  height: 100%;
-  border-radius: 5px;
-}
-.product-single-section .purchase-wrapper .video-wrapper video {
-  object-fit: cover;
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
-}
-.product-single-section .purchase-wrapper .price-wrapper {
-  margin-top: 15px;
-}
-.product-single-section
-  .purchase-wrapper
-  .price-wrapper
-  .discount-price
-  .surprise
-  p {
-  border-radius: 5px;
-  padding: 4px 9px;
-  margin-right: 10px;
-  color: var(--background-color);
-  background: var(--secondery-normal-orange-color);
-}
-.product-single-section .purchase-wrapper .price-wrapper .star-and-price {
-  margin: 10px 0;
-}
-.features-and-category-section svg {
-  width: 20px;
-  height: 20px;
-}
-.features-and-category-section .features-wrapper .item {
-  margin-left: 50px;
-}
-.features-and-category-section .categories-wrapper {
-  border-top: 1px solid;
-  padding: 20px 0;
-  margin: 20px 0;
-  border-bottom: 1px solid;
-}
-.features-and-category-section .categories-wrapper a {
-  color: var(--primary-normal-orange-color);
-}
-.about-teacher-section {
-  margin: 85px 0;
-}
-.about-teacher-section .title {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-  justify-content: center;
-}
-.about-teacher-section .title .icon {
-  width: 600px;
-}
-.about-teacher-section .title .text {
-  position: absolute;
-  font-size: 42px;
-}
-.about-teacher-section .main-content {
-  border-radius: 10px;
-  padding: 30px;
-  background: var(--secondery-background-color);
-}
-.about-teacher-section .main-content .image-section {
-  height: 180px;
-  width: 180px;
-}
-.about-teacher-section .main-content .image-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.about-teacher-section .main-content .text-field {
-  display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-}
-.about-teacher-section .main-content .text-field .about {
-  margin: 5px 0;
-}
-.about-teacher-section .main-content .text-field .about p {
-  color: var(--primary-normal-orange-color);
-}
-.about-teacher-section .main-content .text-field .more-text {
-  margin-top: auto;
 }
